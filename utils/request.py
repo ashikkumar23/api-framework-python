@@ -4,7 +4,7 @@ import requests
 
 
 @dataclass
-class Response:
+class APIResponse:
     status_code: int
     text: str
     as_dict: object
@@ -37,4 +37,4 @@ class APIRequest:
         except ValueError:
             as_dict = {}
         headers = response.headers
-        return Response(status_code, text, as_dict, headers)
+        return APIResponse(status_code, text, as_dict, headers)
