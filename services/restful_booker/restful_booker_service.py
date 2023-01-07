@@ -1,6 +1,6 @@
 import json
 
-from clients.base_client import BaseClient
+from services.base_service import BaseClient
 from config import BASE_URI
 from utils.request import APIRequest
 

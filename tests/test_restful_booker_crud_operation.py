@@ -1,6 +1,6 @@
 from assertpy import assert_that, soft_assertions
 
-from clients.restful_booker.restful_booker_client import RestfulBookerClient
+from services.restful_booker.restful_booker_service import RestfulBookerClient
 
 client = RestfulBookerClient()
 
