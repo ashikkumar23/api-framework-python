@@ -14,12 +14,12 @@ Automated CRUD (i.e., `POST`, `GET`, `PUT`, `DELETE`) APIs using `python`
 
 ```properties
 api-framework-python/
-├─ clients/
+├─ services/
 │  ├─ restful_booker/
 │  │  ├─ __init__.py
-│  │  ├─ restful_booker_client.py
+│  │  ├─ restful_booker_service.py
 │  ├─ __init__.py
-│  ├─ base_client.py
+│  ├─ base_service.py
 ├─ tests/
 │  ├─ data/
 │  │  ├─ create_booking.json
@@ -42,10 +42,16 @@ api-framework-python/
 
 ## 🚀 Installation Steps:
 
-- Install `pipenv` via homebrew
+- For Mac: Install `pipenv` via `homebrew`
 
 ```commandline
 brew install pipenv
+```
+
+- For Windows: Install `pipenv` via `pip`
+
+```commandline
+pip install pipenv
 ```
 
 - Create a home directory
